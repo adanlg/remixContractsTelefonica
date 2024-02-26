@@ -1,0 +1,67 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220324b2e91ad8123a91f01cd7ddc4a337594915cf6f64ac139b300a9941fe98dd164736f6c634300060c0033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ORIGIN 0x4B 0x2E SWAP2 0xAD DUP2 0x23 0xA9 0x1F ADD 0xCD PUSH30 0xDC4A337594915CF6F64AC139B300A9941FE98DD164736F6C634300060C00 CALLER ",
+			"sourceMap": "1271:6011:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220324b2e91ad8123a91f01cd7ddc4a337594915cf6f64ac139b300a9941fe98dd164736f6c634300060c0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ORIGIN 0x4B 0x2E SWAP2 0xAD DUP2 0x23 0xA9 0x1F ADD 0xCD PUSH30 0xDC4A337594915CF6F64AC139B300A9941FE98DD164736F6C634300060C00 CALLER ",
+			"sourceMap": "1271:6011:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"P1()": "infinite",
+				"P2()": "infinite",
+				"addition(struct Pairing.G1Point memory,struct Pairing.G1Point memory)": "infinite",
+				"negate(struct Pairing.G1Point memory)": "infinite",
+				"pairing(struct Pairing.G1Point memory[] memory,struct Pairing.G2Point memory[] memory)": "infinite",
+				"pairingProd2(struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory)": "infinite",
+				"pairingProd3(struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory)": "infinite",
+				"pairingProd4(struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory)": "infinite",
+				"scalar_mul(struct Pairing.G1Point memory,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

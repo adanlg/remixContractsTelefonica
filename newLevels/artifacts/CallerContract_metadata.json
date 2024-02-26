@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_exampleContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"newLevels/solutionHiddenRecipe.sol": "CallerContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"newLevels/solutionHiddenRecipe.sol": {
+			"keccak256": "0x20d992d227ec7f7a7405cafe412eecbb2a2831d7afe57a1f94575c22246b45e0",
+			"urls": [
+				"bzz-raw://1412b288aec50fbbf7f661e297c9986a9d507cc3c16947347783c232710641ad",
+				"dweb:/ipfs/QmTXyfF91nEcdPBEdBssHCYSquMJpztTDgKQvrs1RhNQTC"
+			]
+		}
+	},
+	"version": 1
+}

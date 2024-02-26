@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "input",
+						"type": "uint256[2]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zk/myTornado.sol": "IVerifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zk/MiMCSponge.sol": {
+			"keccak256": "0xa706cd34d08ae767f4c613040211edd0d985a54873cbbb99b65cea2a660bd4f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://912111400ef92454a574147e22753991e588fa56fbe940f4c2e0603e127bdfa5",
+				"dweb:/ipfs/QmWYFdvhDW3NvXDWTHFcgmehQCffYKvNnA58wWUhZbHVDq"
+			]
+		},
+		"zk/ReentrancyGuard.sol": {
+			"keccak256": "0xcc31a6aaa033d766177292c4a614746a52ad143a8c2f5793d6617c4ea49a8764",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c65d38db424fd569f7546cfc91bb2492adda8562eb76babedf557979fb4c86e",
+				"dweb:/ipfs/QmVvFH7yNSR7XL2BhoUTBJXXwtLCasDWehMcVSSoBYo2AB"
+			]
+		},
+		"zk/myTornado.sol": {
+			"keccak256": "0x913fe9105f9072827b3232865426008d9bfa26dfe91ff224a2c6c58b75b055aa",
+			"license": "NONE",
+			"urls": [
+				"bzz-raw://9ff4359235271b9e1baa23e765eee2f3410e9fac1fa7bb99527a72037826b07f",
+				"dweb:/ipfs/QmYen28wobSYnNiSkseaYmkPzyxKYhw1Ech7szt6wcYV9G"
+			]
+		}
+	},
+	"version": 1
+}

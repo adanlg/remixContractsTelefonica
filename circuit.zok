@@ -1,0 +1,11 @@
+// Define your hashes here
+def main(private field provided_hash) -> bool:
+    field[5] known_hashes = [12345, 67890, ...] // replace with your hashes
+
+    for field i in 0..5 do
+        if known_hashes[i] == provided_hash then
+            return true
+        fi
+    endfor
+
+    return false

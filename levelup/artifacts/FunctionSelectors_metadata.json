@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_funcSignature",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_params",
+						"type": "uint256"
+					}
+				],
+				"name": "executeFunction",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_func",
+						"type": "string"
+					}
+				],
+				"name": "getSelector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/getSelectors.sol": "FunctionSelectors"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/getSelectors.sol": {
+			"keccak256": "0xc06dd9e763f95f42ad76337bc2561efaca0220d1919d7495166d3e35741d39c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://814e2cb46f9373796c1cb7d4cb0ea7d6313f0aab6ec15f1fa188becbdd5b62c0",
+				"dweb:/ipfs/Qmc7KcMbKthz282ZT8uCyN5BZWY6U28rahNKXMVVyzmgtV"
+			]
+		}
+	},
+	"version": 1
+}

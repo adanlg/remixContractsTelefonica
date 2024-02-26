@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "pastBlockTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "spin",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"telefonica/timestampVulnerability.sol": "TimestampManp"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"telefonica/timestampVulnerability.sol": {
+			"keccak256": "0x7d8a07de1f2f43a799a3603deebec09dc23880e0fce6475315456e15c87b6f3a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://237ba44647f47aef122ab8045ea3f2ce0254dde6984a0d32e365688b899b7487",
+				"dweb:/ipfs/Qmcxw4Pjfyg8wXiFwqLC7symPfPQm9p7cEYEAWg2gEqYb5"
+			]
+		}
+	},
+	"version": 1
+}

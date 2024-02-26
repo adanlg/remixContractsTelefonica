@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addOil",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addSalt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addTomatoe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/cocina.sol": "cocina"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/cocina.sol": {
+			"keccak256": "0x1a9a05866a1ae92bed0ae6c5e952e514054b8203aad81e62ad986e397fa65204",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://2d903bb649bdd2bd583954fd59c55f8f569ea724a9b0d8a2d7f8ab24859e3395",
+				"dweb:/ipfs/QmUMAPuyP2WMyL28PgqtuwCDEty84GvVigRhAAES71aThc"
+			]
+		}
+	},
+	"version": 1
+}

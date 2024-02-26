@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_flag",
+						"type": "string"
+					},
+					{
+						"internalType": "contract functions4",
+						"name": "_f",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "climbedMeters",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "execution_function",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "contract functions4",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fall",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFlag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/mountain.sol": "Snippet3"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/functions4.sol": {
+			"keccak256": "0x3378d85a4d142edf25b1dc48f14bd330fa21c0c5031ceb2a5c97af6a21556247",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://1c25cdbfbaecf13f99e8713ffa35473634d572a7d508a8c762de213a66ea1fd7",
+				"dweb:/ipfs/QmY89sa41yLBkZHhDoEB9SEkvttSAQrUzjazBVDHCQXa5L"
+			]
+		},
+		"levelup/mountain.sol": {
+			"keccak256": "0xe2fccf2bfdf58ea3c44a1839ac800b485d9808b04cd1a778aafdd8903029e8f2",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://fd4540abe70de5ee69877aac84633336bfb575dba3c0be76fed197615e20a9e0",
+				"dweb:/ipfs/QmP52oV6dPQ4JN28ycV3auL69Z9ET64L3UtB3osm8j9HN1"
+			]
+		}
+	},
+	"version": 1
+}

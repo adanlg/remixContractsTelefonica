@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_vulnerableContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vulnerableContract",
+				"outputs": [
+					{
+						"internalType": "contract VulnerableContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"telefonica/txOriginWithVul.sol": "AttackContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"telefonica/txOriginWithVul.sol": {
+			"keccak256": "0x1253d590ad2522bea9098dd4ecc15191d995953cae3f0eb93c9d5f13380352cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6006d7865a79f125f70f26cd5cd235303f9cfb8be802607f9755135d71099264",
+				"dweb:/ipfs/QmRQr39J7UgFMM5eGjPYQeSrR6g8BxutKJvNypDrYHEX7y"
+			]
+		}
+	},
+	"version": 1
+}

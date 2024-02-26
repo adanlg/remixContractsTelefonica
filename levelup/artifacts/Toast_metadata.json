@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_flag",
+						"type": "string"
+					},
+					{
+						"internalType": "contract kitchen",
+						"name": "_k",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Message",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CheckToast",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "execution_function",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFlag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "k",
+				"outputs": [
+					{
+						"internalType": "contract kitchen",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "perfecToast",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/toast.sol": "Toast"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/kitchen.sol": {
+			"keccak256": "0x6bce72ea062bb2da78cf719c8b78cc5fb88f8f3dd763d8eb39e4f5dc05c47a6a",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://217711515035b09e4d9da155eafd12e73b6f966add8eefb9f6d316a1a7d67914",
+				"dweb:/ipfs/QmaqBrmofVmehLqzV4isT5uz8ZFyWtVpxp9PzSgbxBrJMz"
+			]
+		},
+		"levelup/toast.sol": {
+			"keccak256": "0x85c63694a285ceb9cdf5cef8962ab6458f30ec7b23450227538d39771e6054b8",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://aa12b3f15cc8e68c9d1f7433e2d910b6f522a419ebbefca6875e51561d12ba8d",
+				"dweb:/ipfs/QmREAubtBjEavJCsVD7CHuUz3XnvGyGj92dPyt2neJUccX"
+			]
+		}
+	},
+	"version": 1
+}

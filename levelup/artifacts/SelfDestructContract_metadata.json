@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/selfdestruct.sol": "SelfDestructContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/selfdestruct.sol": {
+			"keccak256": "0xcfa132aa8106a54783cfc03a2b47742a6a11a5d4c4fe00b765860e4482d5ba62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9e333b61d27a621fdc440f8fa461b59026861de6425a1fdeb4ad21909ef1d6d2",
+				"dweb:/ipfs/QmbCCdxYkWXf1FUQijSEFccJ9tdQaimz2bZQV92zAUKkkk"
+			]
+		}
+	},
+	"version": 1
+}

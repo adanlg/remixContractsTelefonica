@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_flag",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getFlag",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/sendToMe.sol": "GasChallenge"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/sendToMe.sol": {
+			"keccak256": "0x638dead52ea40c90f9d5657f966cb65b8520ceb85dea54dad371f81fb0b490ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b98724de3152d6be344fec40491c6d8e710d0ea460c60cf206e7804f4b80f8e1",
+				"dweb:/ipfs/Qmcyxe7YQdKJt73d7ksbts3nWCaxnYiEgcSg8ggdDufkbC"
+			]
+		}
+	},
+	"version": 1
+}

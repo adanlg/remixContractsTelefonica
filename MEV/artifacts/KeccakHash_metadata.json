@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "hashString",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MEV/hash.sol": "KeccakHash"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MEV/hash.sol": {
+			"keccak256": "0xadc1b14be08533cd89ae7010718909bff809ebccb226781fc8faf83e9c1ca95c",
+			"urls": [
+				"bzz-raw://4dcba05556d4aa2c63857203a281b933263c808902b7f818a4a8949ef4150b4d",
+				"dweb:/ipfs/QmNwP4zAUqttmynvtwBWf4phNTg3uXCRkxt9JUniDhiGdF"
+			]
+		}
+	},
+	"version": 1
+}
